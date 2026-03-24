@@ -16,8 +16,8 @@ let
 
   platformSources = {
     "aarch64-darwin" = fetchurl {
-      url = "https://github.com/atuinsh/atuin/releases/download/v${version}/atuin-${targetTriple}.tar.gz";
-      sha256 = "1275qh7ybm9j7spdmsjxc2d5xngkbvbbm5w9554ji9gv1zciwdk3";
+      url = "https://github.com/atuinsh/atuin/releases/download/v${version}/atuin-aarch64-apple-darwin.tar.gz";
+      sha256 = "1jqcpi0dw19z8jpx889pwqgcs3xpri0f7760i4d868ss35303iig";
     };
     "x86_64-linux" = fetchurl {
       url = "https://github.com/atuinsh/atuin/releases/download/v${version}/atuin-x86_64-unknown-linux-musl.tar.gz";

@@ -5,7 +5,7 @@
 }:
 
 let
-  version = "18.20.1";
+  version = "18.21.0";
 
   targetTriple = {
     "aarch64-darwin" = "aarch64-apple-darwin";
@@ -17,15 +17,15 @@ let
   platformSources = {
     "aarch64-darwin" = fetchurl {
       url = "https://github.com/atuinsh/atuin/releases/download/v${version}/atuin-aarch64-apple-darwin.tar.gz";
-      sha256 = "09ah3wvzkcl4q8qs7613yp1hqlw0z1hh8hy4vmb3i5q7p78q20k9";
+      sha256 = "0vkf3vcy5y24rnygp61vl3ihsd57q3ci2spbaq5ywf4wr1cw32n7";
     };
     "x86_64-linux" = fetchurl {
       url = "https://github.com/atuinsh/atuin/releases/download/v${version}/atuin-x86_64-unknown-linux-musl.tar.gz";
-      sha256 = "13wwzva54kswh00k1a0qn05ssnjpl2f6pbh57s512w255cbfilqs";
+      sha256 = "025cfvlxxffx7ixrh8rxirrvljhnc0qnp6clxkmrpfhks5kihbkr";
     };
     "aarch64-linux" = fetchurl {
       url = "https://github.com/atuinsh/atuin/releases/download/v${version}/atuin-aarch64-unknown-linux-musl.tar.gz";
-      sha256 = "1w0kvs8alnwf9k8aish087p8gksvyhm0c9dg4fsvs87yv9ziwy2r";
+      sha256 = "1q9fr9lrwj99wb591vf12hivwlckyxsdzm0913m73fhf6zgpd2lv";
     };
   };
 

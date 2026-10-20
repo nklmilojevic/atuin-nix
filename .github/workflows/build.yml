@@ -25,7 +25,7 @@ jobs:
       env:
         NIX_FIRST_BUILD_UID: 400
 
-    - uses: cachix/cachix-action@v15
+    - uses: cachix/cachix-action@38b082610b782e7e93e209c35fd730d399dee866 # v17
       with:
         name: atuin-nix
         authToken: '${{ secrets.CACHIX_AUTH_TOKEN }}'
